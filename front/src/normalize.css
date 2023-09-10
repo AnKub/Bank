@@ -779,9 +779,6 @@ fieldset {
   padding: 0;
 }
 
-textarea {
-  resize: vertical;
-}
 
 .chromeframe {
   margin: 0.2em 0;
@@ -811,14 +808,6 @@ textarea:active {
 
 textarea {
   resize: none;
-}
-
-textarea {
-  resize: vertical;
-}
-
-textarea {
-  resize: horizontal;
 }
 
 button:active,

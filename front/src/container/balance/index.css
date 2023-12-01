@@ -1,0 +1,21 @@
+.balance {
+  top: 0;
+  padding: 40px 20px;
+  position: relative;
+  background-image: url("./BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.balance__amount {
+  color: white;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+}

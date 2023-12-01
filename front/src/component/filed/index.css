@@ -1,0 +1,39 @@
+.field {
+  width: 100%;
+  display: grid;
+  gap: 8px;
+}
+
+.field__block__input {
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--color-gray);
+  display: flex;
+}
+.field > .field-alert {
+  --size: 14px;
+  font-size: var(--size);
+  color: var(--color-alert);
+}
+
+.field__input {
+  flex: 1;
+}
+
+.field__view {
+  cursor: pointer;
+}
+.field__view:active {
+  opacity: 0.2;
+}
+
+.input--valid {
+  border-color: var(--color-primary);
+}
+.input--not-valid {
+  border-color: var(--color-alert);
+}
+
+.field__money {
+  align-self: center;
+}

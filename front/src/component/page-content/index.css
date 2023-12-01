@@ -1,0 +1,16 @@
+.page__content {
+  display: flex;
+  gap: 20px;
+  max-width: 600px;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+
+  align-items: center;
+  overflow: hidden;
+  padding: 5%;
+}
+
+.page__content--between {
+  justify-content: space-between;
+}

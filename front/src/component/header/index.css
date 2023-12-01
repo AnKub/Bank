@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 24px;
+}
+
+.header > img {
+  position: absolute;
+}
+.header > h3 {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 20px;
+  color: #1d1d1f;
+  font-weight: 500;
+}

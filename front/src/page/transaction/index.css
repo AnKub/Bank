@@ -1,0 +1,41 @@
+.transaction__full {
+  padding-top: 32px;
+  width: 100%;
+  display: grid;
+  gap: 32px;
+}
+.transaction__full__amount {
+  text-align: center;
+
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.transaction__full__amount--recive {
+  color: #24b277;
+}
+
+.transaction__full__amount--recive::before {
+  content: "+$";
+}
+.transaction__full__amount--sending {
+  color: #1d1d1f;
+}
+
+.transaction__full__amount--sending::before {
+  content: "-$";
+}
+
+.transaction__full__info {
+  display: grid;
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+  gap: 16px;
+  width: 100%;
+}
+
+.transaction__full__item {
+  display: flex;
+  justify-content: space-between;
+}

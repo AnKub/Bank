@@ -1,0 +1,18 @@
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+
+  border-radius: 10px;
+  background: rgba(242, 136, 61, 0.1);
+  color: #f2883d;
+}
+.alert--ok {
+  background: rgba(164, 242, 61, 0.7);
+
+  color: rgb(26, 9, 125);
+}

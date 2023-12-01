@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  --color: var(--color-primary);
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--color);
+  width: 100%;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.button--outside {
+  --color: var(--color-primary);
+  color: var(--color);
+  background: none;
+  border: 1px solid var(--color);
+}
+.button--active {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.button--active:hover {
+  opacity: 0.5;
+}
+.button--active:active {
+  opacity: 0.2;
+}

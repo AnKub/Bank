@@ -1,0 +1,19 @@
+.system {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+  gap: 22px;
+  background-color: white;
+  padding: 26px;
+  border-radius: 12px;
+}
+
+.system__name {
+  color: #1d1d1f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.system__sub {
+  display: flex;
+  gap: 8px;
+}

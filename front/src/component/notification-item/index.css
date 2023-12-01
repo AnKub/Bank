@@ -1,0 +1,39 @@
+.notification__item {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+  gap: 22px;
+  background-color: white;
+  padding: 26px;
+  border-radius: 12px;
+}
+
+.notification__text {
+  color: #1d1d1f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.notification__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+.notification__info {
+  display: flex;
+  gap: 8px;
+  color: #939199;
+}
+.notification__info > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.notification__info > span:not(:last-child)::after {
+  content: "";
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  background-color: #939199;
+}

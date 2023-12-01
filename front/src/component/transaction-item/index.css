@@ -1,0 +1,50 @@
+.transaction__item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  align-items: center;
+  gap: 12px;
+}
+
+.transaction__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.transaction__name {
+  color: #1d1d1f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.transaction__type {
+  color: var(--Grey-text, #939199);
+  font-size: 12px;
+}
+
+.transaction__amount {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.transaction__amount--receipt {
+  color: var(--Green, #24b277);
+}
+.transaction__amount--receipt::before {
+  content: "+$";
+}
+
+.transaction__amount--receipt span:nth-child(2) {
+  color: #26bf80;
+  font-weight: 400;
+}
+.transaction__amount--sending {
+  color: var(--Green, #1d1d1f);
+}
+.transaction__amount--sending::before {
+  content: "-$";
+}
+
+.transaction__amount--sending span:nth-child(2) {
+  color: #939199;
+  font-weight: 400;
+}

@@ -1,0 +1,10 @@
+.balance__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance__header__title {
+  color: #f3f5ff;
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,7 @@
+.question__redirect {
+  align-self: flex-start;
+}
+.question__redirect > a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}

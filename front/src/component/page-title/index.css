@@ -1,0 +1,14 @@
+.page__title {
+  text-align: center;
+  display: grid;
+  gap: 12px;
+}
+.page__title > h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.page__title > h4 {
+  color: var(--Grey-text, #939199);
+  font-size: 14px;
+}

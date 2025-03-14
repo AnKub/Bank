@@ -1,4 +1,4 @@
-# Mobile Banking
+# Mob Banking
 
 ## Overview
 Mobile Banking is a full-stack app that provides essential banking functionalities. It consists of a Backend built with Express and TypeScript, and a Frontend developed using React with React Router.
